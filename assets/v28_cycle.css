@@ -1,0 +1,25 @@
+/* V27 grand-cycle guide and device safe layout */
+.cycle-guide,.cycle-choice,.cycle-automation {border:1px solid #c4cfbd;background:#f3f6ed;padding:18px;margin:12px 0 18px;border-radius:5px;color:#293c30}
+.cycle-guide h3,.cycle-automation h3{font-size:1.13rem;line-height:1.5;letter-spacing:.01em;margin:.25rem 0 .5rem}
+.cycle-guide p,.cycle-choice p,.cycle-automation p{font-size:.89rem;line-height:1.8;margin:.5rem 0}
+.cycle-guide .eyebrow{letter-spacing:.13em;color:#4c7657}
+.cycle-kpi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:15px 0}
+.cycle-kpi>div{background:#fffdf7;border:1px solid #d9dfd4;padding:10px 8px;min-width:0}
+.cycle-kpi small{font-size:.7rem;color:#66786c;display:block}
+.cycle-kpi strong{font-size:1.17rem;display:block;overflow-wrap:anywhere;color:#283f30}
+.cycle-guide details{border-top:1px solid #ccd6c7;padding-top:10px}
+.cycle-guide summary{font-size:.87rem;font-weight:bold;cursor:pointer;padding:7px 0}
+.cycle-keep{background:#fffdf7;padding:9px 12px;border-radius:4px}
+.cycle-choice{background:#fffdf7;border-color:#c6b8a0}
+.cycle-choice .action{width:100%;margin:8px 0}
+.cycle-choice small{display:block;font-size:.76rem;line-height:1.6}
+.cycle-footnote{padding:9px;background:#e7efdf}
+.cycle-modal-promise{background:#f1f4eb;border-left:4px solid #6a8770;padding:12px}
+@media(max-width:640px){.cycle-guide,.cycle-choice,.cycle-automation{padding:13px;margin:12px 0}.cycle-kpi{gap:5px}.cycle-kpi>div{padding:8px 5px}.cycle-kpi strong{font-size:.97rem}}
+
+.cycle-rebuild { margin: 1rem 0;padding: 1rem; border:1px solid var(--line, #b6c4b7);border-radius:12px;}
+.cycle-rebuild button{margin-top:.75rem;}
+
+/* V29: important financial diagnostics in the reset flow */
+.cycle-waiting{border-left:3px solid #b58755;padding:.65rem .85rem;background:#faf4e7;color:#59482f;font-size:.89rem;line-height:1.55;}
+.cycle-ready{border-left:3px solid #52846b;padding:.55rem .85rem;background:#edf5ee;color:#2e5941;font-size:.89rem;}

@@ -1,0 +1,17 @@
+/* V33: condition-first ascension navigation, restrained editorial UI */
+.ascension-guide{margin:14px 0 18px;border:1px solid #9aaa9b;background:linear-gradient(180deg,#f8f8f2,#f3f5ec);border-radius:12px;padding:17px;color:#24392f;}
+.ascension-guide h4{font-size:1.12rem;line-height:1.45;margin:6px 0 9px;letter-spacing:.012em;}
+.ascension-guide>p{font-size:.91rem;line-height:1.7;margin-bottom:14px;color:#394d43;}
+.ascension-condition{margin:9px 0;border:1px solid #d9ded6;background:#fff;border-radius:9px;padding:12px;}
+.ascension-condition.done{border-color:#b1c8b5;background:#f5faf5;}
+.ascension-condition-head{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:.86rem;}
+.ascension-condition-head>b{font-size:.73rem;white-space:nowrap;color:#5b705f;}
+.ascension-numbers{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;margin:8px 0;font-size:.79rem;color:#44594e;font-variant-numeric:tabular-nums;}
+.ascension-bar{height:7px;border-radius:6px;background:#e6eae1;overflow:hidden;}
+.ascension-bar>span{height:100%;display:block;background:#718f72;border-radius:6px;transition:width .2s;}
+.ascension-condition>p{font-size:.82rem;line-height:1.6;margin:8px 0 0;color:#52645a;}
+.ascension-next{border-top:1px solid #cfd8cc;padding:13px 0 6px;}
+.ascension-next strong{font-size:.87rem;}
+.ascension-next p,.ascension-foot{font-size:.84rem;line-height:1.65;color:#36483f;}
+.ascension-guide button.action{width:100%;margin-top:9px;min-height:43px;}
+@media(max-width:540px){.ascension-guide{padding:13px;margin:10px 0}.ascension-condition{padding:10px}.ascension-condition-head{font-size:.8rem}}
